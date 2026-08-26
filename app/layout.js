@@ -3,6 +3,7 @@ import "./globals.css";
 import Dashboard from "./dashboard/page";
 import Skills from "./skills/page";
 import Achievements from "./achievements/page";
+import Experience from "./experience/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <Dashboard />
         <Skills />
+        <Experience />
         <Achievements />
         {children}</body>
     </html>

@@ -1,16 +1,16 @@
 "use client";
 
 import { Lottie } from "lottie-react";
-import Developing from "../../public/working (1).json";
+import Developing from "../../public/final1.json";
 
 const Page = () => {
   return (
-    <main className="min-h-screen bg-[#0a0a0c] text-white">
+    <main className="min-h-screen bg-gradient-to-br from-[#1F1218] via-[#4A2635] to-[#8B3A50] text-white">
       
       
       <nav className="flex items-center justify-between px-20 py-8">
         
-        <h2 className="signature-font wrap-no-wrap text-4xl">
+        <h2 className=" px-26.5 signature-font wrap-no-wrap text-5xl">
           Om Shivhare
         </h2>
 
@@ -24,16 +24,16 @@ const Page = () => {
 
 
       {/* Hero Section */}
-      <section className="mx-auto flex min-h-[500px] max-w-[1300px] items-center px-20">
+      <section className="h-150 m-5 mx-auto gap-5 flex min-h-[400px] max-w-[1300px] items-center px-20">
         
         {/* Left Side */}
         <div className="flex w-1/2 flex-col justify-center">
           
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-4xl font-bold">
             Hey there, I'm Om Shivhare
           </h1>
 
-          <p className="mt-8 max-w-[650px] text-2xl leading-relaxed text-gray-200">
+          <p className="mt-8 max-w-[650px] text-xl leading-relaxed text-gray-200">
             I'm a passionate full stack developer, and a great problem solver,
             having hands on experience of building web applications using
             React.js, Node.js, Next.js, REST Framework, AWS, GCP and
@@ -84,6 +84,8 @@ const Page = () => {
           />
 
         </div>
+
+        <div className=''> </div>
 
       </section>
     </main>
