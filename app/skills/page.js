@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Lottie } from "lottie-react";
-import Developing from "../../public/Developing.json";
+import Developing from "../../public/coding in office.json";
 
 const Page = () => {
   const skills = [

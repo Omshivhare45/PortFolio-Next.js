@@ -32,7 +32,6 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <Dashboard />
         <Skills />
-        <Experience />
         <Achievements />
         {children}</body>
     </html>
