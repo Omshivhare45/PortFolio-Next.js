@@ -11,7 +11,7 @@ const Page = () => {
       <nav className="flex items-center justify-between px-20 py-8">
         
         <h2 className=" px-26.5 signature-font wrap-no-wrap text-5xl">
-          Om Shivhare , full stack developer
+          Om Shivhare
         </h2>
 
         <div className="flex items-center gap-8 text-xl">
