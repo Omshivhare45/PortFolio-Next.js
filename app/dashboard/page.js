@@ -22,7 +22,7 @@ const Page = () => {
 
       </nav>
 
-
+  
       {/* Hero Section */}
       <section className="h-150 m-5 mx-auto gap-5 flex min-h-[400px] max-w-[1300px] items-center px-20">
         
